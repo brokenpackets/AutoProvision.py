@@ -10,7 +10,7 @@ password = 'password' # cvp password to authenticate with.
 server1 = 'https://192.0.2.1' # cvp ip address
 ztpbuilder_name = 'ztp_builder' # name of builder to run against device.
 container_name = 'DC1' # Root container to use.
-yaml_name = 'yaml-name.yaml' # yaml file with seed data for device/serial/container mappings. 
+yaml_name = 'ztp_yaml.yaml' # yaml file with seed data for device/serial/container mappings. 
 
 
 """ To use: You'll want to have a static configlet named DS_{device-name}. This will automatically map any 
